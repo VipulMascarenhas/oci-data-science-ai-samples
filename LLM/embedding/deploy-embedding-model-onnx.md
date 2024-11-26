@@ -640,7 +640,7 @@ response = requests.post(
 
 The raw output (response) has an array of three lists with embedding for the above three sentences.
 
-```json
+```
 {'object': 'list',
  'data': [{'object': 'embedding',
    'embedding': [-0.00735207,
